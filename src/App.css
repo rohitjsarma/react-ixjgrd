@@ -1,0 +1,20 @@
+.fas {
+    cursor: pointer;
+    font-size: 30px;
+}
+.fas:hover {
+    transform: scale(1.1);
+}
+.fas:active {
+    transform: scale(1);
+}
+.box {
+    width: 100px;
+    min-height: 50px;
+    border: solid 1px rgb(139, 70, 70);
+    font-size: 1vw;
+    /* color: transparent; */
+}
+.box.highlight {
+    background: radial-gradient(rgb(36, 197, 31), rgb(42, 173, 9), rgb(74, 194, 19));
+}
